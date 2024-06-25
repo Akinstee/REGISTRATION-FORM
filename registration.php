@@ -89,7 +89,9 @@ if (isset($_SESSION["user"])){
             </div>
         </form>
         <div>
-            <div><p>Already Registered <a href="login.php">Rgisster Here</a></p></div>
+            <div>
+                <p>Already Registered <a href="login.php">login Here</a></p>
+            </div>
         </div>
     </div>
 </body>
