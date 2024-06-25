@@ -44,6 +44,9 @@ if (isset($_SESSION["user"])){
         
         ?>
         <form action="login.php" method="post">
+            <div class="form-group logs">
+                <h1>Login</h1>
+            </div>
             <div class="form-group">
                 <input type="email" placeholder="Enter Email:" name="email" class="form-control">
             </div>
